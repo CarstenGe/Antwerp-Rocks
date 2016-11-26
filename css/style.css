@@ -1,0 +1,84 @@
+/*************************   TITLE   ***************************/
+#title{
+	width: 200px;
+	height: 175px;
+	float: left;
+	margin-top: -50px;
+	margin-left: 50px;
+}
+/*************************   MENU   ***************************/
+#menu {
+	position:relative;
+	float:left;
+	padding: 0px;
+	margin-top: -50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 200px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li{
+	list-style-type:none;
+	font-size:16px;
+	text-align:right;
+}
+#menu li a{
+	font-weight:200;
+	text-decoration:none;
+}
+#menu li a:hover{
+	text-decoration:underline;
+}
+
+#menu ul li {
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+
+#menu ul li a {
+	font-family:SoulMission;
+	font-size: 22px;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block; /*entire block works as button by doing this, not just the word*/
+	height: 30px;
+	width: 150px;
+}
+#menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 31px;
+}
+#menu ul li:hover ul {
+	visibility: visible; /*This creates the drop down menu*/
+}
+
+#menu ul li a:hover {
+	background-color: #df0024;
+	text-decoration: none;
+}
+
+/*************************   CONTENT   ***************************/
+#content {
+	float: left;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+/*********************BANNER***********************/
+#banner {
+	float: right;
+	width: 160px;
+	height: 600px;
+	margin-right: 50px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}

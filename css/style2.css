@@ -1,0 +1,371 @@
+/*************************   TITLE   ***************************/
+#title{
+	width: 200px;
+	height: 175px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/*************************   MENU   ***************************/
+#menu {
+	position:relative;
+	float:left;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 200px;
+	clear: right;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li{
+	list-style-type:none;
+	font-size:16px;
+	text-align:right;
+}
+#menu li a{
+	color:black;
+	font-weight:200;
+	text-decoration:none;
+	font-size:20px;	
+}
+
+#menu ul li {
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+
+#menu ul li a {
+	font-family:"SoulMission";
+	color: white;
+	font-size: 22px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	display: block; /*entire block works as button by doing this, not just the word*/
+	height: 30px;
+	width: 150px;
+
+}
+#menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 31px;
+}
+#menu ul li:hover ul {
+	visibility: visible; /*This creates the drop down menu*/
+}
+
+#menu ul li a:hover {
+	background-color: #df0024;
+}
+#menu ul li ul li a {
+	float: left;
+}
+
+
+/*************************   CONTENT   ***************************/
+#content-cd{
+	width: 100%;
+	float: left;
+}
+#content-menu {
+	float: left;
+	width: 200px;
+	height: auto;
+}
+
+#content-menu ul li{
+	list-style-type: none;
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 150px;
+	height: 50px;
+}
+#content-menu ul li a {
+	margin-top: 50px;
+	font-family:"SoulMission";
+
+}
+#content-menu ul li a p{
+	padding-top: 12px;
+	font-size: 20px;
+	color: white;
+}
+
+#content-menu ul li:active{
+	background-color: #df0024;
+}
+#content-menu img {
+	margin-left: -40px;
+	margin-top: -42px;
+	height:12px;
+
+}
+
+/*************************   CONTENT VELDEN  ***************************/
+/*********  CD  *********/
+#cd {
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 1200px;
+	height: 500px;
+}
+#cd h1 {
+	color: white;
+	font-family: "SoulMission";
+	margin-left: 30px;
+}
+#cd p{
+	margin-left: 30px;
+	width: 750px;
+	font-family: "Arial";
+	color: white;
+	opacity: 0.8;
+}
+#cd a{
+	margin-left: 25px;
+}
+#cd p a{
+	margin-left: 0px;
+	color: white;
+}
+#cd h2 {
+	color: #df0024;
+	font-family: "SoulMission";
+	margin-left: 30px;
+	font-weight: lighter;
+	font-size: 26px;
+}
+/*********  CONCERT  *********/
+#concert {
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 1200px;
+	height: 500px;
+}
+#concert h1{
+	margin-left: 30px;
+	font-family:"SoulMission";
+	color: white;
+}
+#concert p{
+	margin-left: 30px;
+	width: 750px;
+	font-family: "Arial";
+	color: white;
+}
+#concert a{
+	margin-left: 25px;
+}
+#concert p a{
+	margin-left: 0px;
+	color: white;
+}
+#concert h2 {
+	color: #df0024;
+	font-family: "SoulMission";
+	margin-left: 30px;
+	font-weight: lighter;
+	font-size: 26px;
+}
+/*********  MUZIEK  *********/
+#muziek {
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 1200px;
+	height: 500px;
+}
+#muziek h1{
+	margin-left: 30px;
+	font-family:"SoulMission";
+	color: white;
+}
+#muziek p{
+	margin-left: 30px;
+	width: 750px;
+	font-family: "Arial";
+	color: white;
+}
+#muziek a{
+	margin-left: 25px;
+}
+#muziek p a{
+	margin-left: 0px;
+	color: white;
+}
+#muziek h2 {
+	color: #df0024;
+	font-family: "SoulMission";
+	margin-left: 30px;
+	font-weight: lighter;
+	font-size: 26px;
+}
+/*********  REPETITIE  *********/
+#repetitie {
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 1200px;
+	height: 500px;
+}
+#repetitie h1{
+	margin-left: 30px;
+	font-family: "SoulMission";
+	color: white;
+}
+#repetitie p{
+	margin-left: 30px;
+	width: 750px;
+	font-family: "Arial";
+	color: white;
+}
+#repetitie a{
+	margin-left: 25px;
+}
+#repetitie p a{
+	margin-left: 0px;
+	color: white;
+}
+#content-menu {
+	float: left;
+	clear: left;
+}
+#content-menu ul li a {
+	font-size: 20px;
+	padding-top: 29px;
+	color: #34382f;
+	vertical-align: middle;
+	font-weight: normal;
+}
+#repetitie h2 {
+	color: #df0024;
+	font-family: "SoulMission";
+	margin-left: 30px;
+	font-weight: lighter;
+	font-size: 26px;
+}
+/*********  CONTACT  *********/
+#contact-left {
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin-top: 175px;
+	margin-left: 100px;
+	color: #aaa;
+}
+#contact-right {
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin-top: 175px;
+}
+#contact-left img{
+	width: 50px;
+}
+#contact-left h2{
+	font-family: "SoulMission";
+	color: white;
+	margin-top: 50px;
+}
+#foto-cd{
+	width: 25%;
+	float: right;
+	margin-right: 100px;
+	margin-top:-1620px;
+}
+#banner-cd {
+	float: right;
+	width: 160px;
+	height: 600px;
+	margin-right: 50px;
+	margin-top: -490px;
+	margin-bottom: 50px;
+}
+#foto-concert{
+	width: 25%;
+	float: right;
+	margin-right: 100px;
+	margin-top:-1190px;
+}
+#banner-concert{
+	float: right;
+	width: 160px;
+	height: 600px;
+	margin-right: 50px;
+	margin-top: -490px;
+	margin-bottom: 50px;
+}
+#foto-muziek{
+	width: 25%;
+	float: right;
+	margin-right: 100px;
+	margin-top:-880px;
+}
+#banner-muziek{
+	float: right;
+	width: 160px;
+	height: 600px;
+	margin-right: 50px;
+	margin-top: -490px;
+	margin-bottom: 50px;
+}
+#foto-repetitie{
+	width: 25%;
+	float: right;
+	margin-right: 100px;
+	margin-top:-835px;
+}
+#banner-repetitie{
+	float: right;
+	width: 160px;
+	height: 600px;
+	margin-right: 50px;
+	margin-top: -490px;
+	margin-bottom: 50px;
+}
+
+/************* SPONSORS *****************/
+#sponsors p {
+	float: left;
+	margin-left: 5%;
+	margin-top: 160px;
+	color: white;
+}
+#sponsors img {
+	width: 300px;
+	height: auto;
+}
+
+/*********************INFORMATIE***********************/
+#informatie {
+	float: left;
+	margin-left: 5%;
+	margin-right: 15%;
+	margin-top: 150px;
+	width: 800px;
+}
+#informatie p {
+	padding: 20px;
+	font-family: "Arial";	
+	color: white;
+}
+/*********************BANNER***********************/
+#banner {
+	float: right;
+	width: 160px;
+	height: 600px;
+	margin-right: 50px;
+	margin-top: 170px;
+	margin-bottom: 50px;
+}
